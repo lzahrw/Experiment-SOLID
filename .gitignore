@@ -28,7 +28,7 @@ share/python-wheels/
 
 # PyCharm project files
 .idea/
-*.iml
+
 
 # Jupyter Notebook
 .ipynb_checkpoints
