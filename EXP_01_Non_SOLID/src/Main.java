@@ -44,6 +44,10 @@ public class Main {
             orderService = new OnSiteOrderService();
             orderService.onSiteOrderRegister(customerName);
         }
+        else if(customerAnswerForPaymentMethod==3){
+            orderService = new phoneOrderService();
+            orderService.phoneOrderRegister(customerName);
+        }
 
         //Step3 : pay price
         System.out.println("Pay Price:");
@@ -51,6 +55,9 @@ public class Main {
             orderService.onlineOrderPayment(order.getTotalPrice());
         } else if(orderService instanceof OnSiteOrderService){
             orderService.onSiteOrderPayment(order.getTotalPrice());
+        }
+        else if(orderService instanceof PhoneOrderService){
+            orderService.phoneOrderPayment(order.getTotalPrice());
         }
 
         //Finally Print Bill
