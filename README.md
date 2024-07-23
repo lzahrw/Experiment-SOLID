@@ -136,7 +136,7 @@
 </tr>
 <tr>
 <td width="64">
-<p><strong۸</strong></p>
+<p><strong>۸</strong></p>
 </td>
 <td width="198">
 <p>Main</p>
