@@ -75,6 +75,70 @@
 <p><strong>۴</strong></p>
 </td>
 <td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>اضافه کردن تابع phoneOrderPayment</p>
+</td>
+<td width="292">
+<p>تابع ثبت سفارش به روش تلفنی با بدنه ی خالی به کلاس اضافه شد.</p>
+</td>
+</tr>
+
+</tr>
+<tr>
+<td width="64">
+<p><strong>۵</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>اضافه کردن تابع phoneOrderRegister</p>
+</td>
+<td width="292">
+<p>تابع پرداخت سفارش به روش تلفنی با بدنه ی خالی به کلاس اضافه شد. </p>
+</td>
+</tr>
+
+</tr>
+<tr>
+<td width="64">
+<p><strong>۶</strong></p>
+</td>
+<td width="198">
+<p>OnsiteOrderService</p>
+</td>
+<td width="141">
+<p>اضافه کردن تابع phoneOrderPayment</p>
+</td>
+<td width="292">
+<p>تابع ثبت سفارش به روش تلفنی با بدنه ی خالی به کلاس اضافه شد.</p>
+</td>
+</tr>
+
+</tr>
+<tr>
+<td width="64">
+<p><strong>۷</strong></p>
+</td>
+<td width="198">
+<p>OnsiteOrderService</p>
+</td>
+<td width="141">
+<p>اضافه کردن تابع phoneOrderRegister</p>
+</td>
+<td width="292">
+<p>تابع پرداخت سفارش به روش تلفنی با بدنه ی خالی به کلاس اضافه شد. </p>
+</td>
+</tr>
+
+</tr>
+<tr>
+<td width="64">
+<p><strong۸</strong></p>
+</td>
+<td width="198">
 <p>Main</p>
 </td>
 <td width="141">
@@ -88,7 +152,7 @@
 </tr>
 <tr>
 <td width="64">
-<p><strong>۵</strong></p>
+<p><strong>۹</strong></p>
 </td>
 <td width="198">
 <p>Main</p>
@@ -103,7 +167,7 @@
 </tbody>
 </table>
 
-مجموع تعداد تغییرات: ۵
+مجموع تعداد تغییرات: ۹
 
 ### گام ۲: تحلیل و وارسی برنامه از منظر تحقق و یا عدم تحقق اصول SOLID
 در خصوص این برنامه‌ای که نوشته شده بود و شما یک قابلیت به آن اضافه کردید، بر اساس اصول SOLID موارد نقض و یا محقق شدن هر کدام از آن اصول را بیان کنید. در بیان موارد تحقق و نقض، علت تحقق و یا نقض را نیز به صورت کامل توضیح دهید:
